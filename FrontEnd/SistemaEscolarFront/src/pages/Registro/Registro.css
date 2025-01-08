@@ -1,0 +1,97 @@
+.RegistraConfirmarSenha{
+    position: relative;
+    top: 10rem;
+    left: 4.8rem;
+    width: 250px;
+    height: 33px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+.RegistraConfirmarSenha:focus{
+    outline: none;
+    box-shadow: 8px 7px 10px 0px black;
+}
+.mainRegistro{
+    background-color: rgba(26, 24, 24, 0.767);
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    border: 2px  solid black;
+    border-radius: 30px;
+    transform: translate(-50%,-50%);
+    box-shadow: 6px 5px 10px 0px black;
+    width: 400px;
+    min-height: 450px
+}
+
+.mainRegistro input{    
+    margin-bottom: 15px;
+}
+
+
+.entrar{
+    position: relative;
+    top: 12.8rem;
+    left: 12rem;
+    transform: translate(-50%,-50%);
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 22px;
+    
+}
+.entrar:hover{
+    cursor: pointer;
+    box-shadow: 7px 6px 11px 0px black;
+}
+.mensagem{
+    position: relative;
+    top: 10rem;
+    left: 21rem;
+
+    transform: translate(-50%,-50%)
+}
+.mensagemDeRegistro{
+    background-color: yellowgreen;
+    position: absolute;
+    left: 30rem;
+    top: 1rem;
+    width: 300px;
+    text-align: center;
+    padding-top: 27px;
+    font-size: 20px;
+    height: 70px;
+    border-radius: 15px;
+    
+}
+.mensagemDeRegistro span{
+    border-right: 1px solid;
+    animation: typing 3s steps(30, end), cursor .6s steps(30, end) infinite alternate;
+}
+@media (max-width: 807px) {
+    body{
+        background-size: 200vh;
+    }
+    .entrar{
+        left: 12.5rem;
+        top: 17rem;
+    }
+    .confirmarSenha{
+        top: 8rem;
+    }
+}
+
+
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent
+    }
+}

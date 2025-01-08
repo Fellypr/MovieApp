@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+    
+}
+a:hover{
+    cursor: pointer;
+    outline: none;
+    
+
+}
+
+a:focus{
+    outline: none;
+}

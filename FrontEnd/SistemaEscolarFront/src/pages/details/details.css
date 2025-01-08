@@ -1,0 +1,60 @@
+.details-container{
+    background-color: rgba(2, 3, 68, 0.911);
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: white;
+}
+.movie-title{
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+}
+.details-poster{
+    width: 300px;
+    height: 400px;
+    border-radius: 27px;
+}
+.details-content{
+    display: flex;
+    position: absolute;
+    top: 8rem;
+    left:23px;
+
+}
+.overview{
+    color : white;
+    width: 450px;
+    left: 20rem;
+    flex-wrap: wrap;
+    font-size: 18px;
+    position:absolute;
+    top: 5rem;
+}
+.vote-average{
+    position: absolute;
+    top: 17rem;
+    left: 20rem;
+    width: 300px;
+}
+.release-date{
+    position: absolute;
+    top: 15rem;
+    width: 300px;
+    left: 20rem;
+}
+.budget{
+    position: absolute;
+    top: 20rem;
+    left: 20rem;
+    width: 200px;
+}
+.iconmoney{
+    position: absolute;
+    left: 12rem;
+}
+.iconstar{
+    color : yellow;
+    position: absolute;
+    left: 8.6rem;
+}

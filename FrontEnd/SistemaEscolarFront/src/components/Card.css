@@ -1,0 +1,50 @@
+.pictureMovie {
+    width: 200px;
+    height: 300px;
+    border-radius: 27px 27px 0px 0px;
+    overflow-y: hidden;
+    animation-name: leFadeInRight;
+    animation-duration: 1.1s;
+    animation-fill-mode: forwards;
+}
+
+.movie-info {
+    background-color: black;
+    color: white;
+    animation-name: leFadeInRight;
+    animation-duration: 1.1s;
+    animation-fill-mode: forwards;
+    height: 150px;
+    width: 200px;
+    position: relative;
+    top: -0.3rem;
+    border-radius: 0px 0px 27px 27px;
+    text-align: center;
+    padding-top: 5px;
+    gap: 15px;
+
+}
+
+.details {
+    font-size: 17px;
+}
+
+.details:hover {
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.movie-info a {
+    position: relative;
+    top: 12px;
+    color: yellow;
+}
+
+
+@keyframes leFadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(70px);
+    }
+    to { opacity: 1 }
+}

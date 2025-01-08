@@ -1,0 +1,147 @@
+.main {
+    background-color: rgba(26, 24, 24, 0.767);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 2px solid black;
+    border-radius: 30px;
+    transform: translate(-50%, -50%);
+    box-shadow: 6px 5px 10px 0px black;
+    min-width: 400px;
+    min-height: 450px;
+    
+}
+
+body{
+    background-image: url("../../../imagems/a9329b6beb4d240a05cef743877b59eb.jpg");
+    background-size: 220vh;
+    background-position: 0px 0px 13px 0px;
+    background-repeat: no-repeat;
+    
+}
+
+
+.main h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+form input {
+    position: relative;
+    top: 10rem;
+    left: 4.8rem;
+    width: 250px;
+    height: 33px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+
+.email {
+    margin-bottom: 20px;
+}
+
+form input:focus {
+    outline: none;
+    box-shadow: 8px 7px 10px 0px black;
+}
+
+.main p {
+    text-align: center;
+    position: relative;
+    top: 10.7rem;
+}
+
+.entrarLogin {
+    position: relative;
+    top: 18rem;
+    left: -2.6rem;
+    transform: translate(-50%, -50%);
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 22px;
+
+}
+
+.entrarLogin:hover {
+    cursor: pointer;
+    box-shadow: 7px 6px 11px 0px black;
+       
+    
+}
+
+.showPassword {
+    position: relative;
+    z-index: 1;
+    top: 8.2rem;
+    left: 18.5rem;
+    background: none;
+    border: none;
+}
+
+.showPassword:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+
+.LoginERegistro{
+    position: absolute;
+    top: 3rem;
+    left: 8rem;
+    
+    
+}
+
+.Loginbutton{
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding-right: 1rem;
+}
+
+.Registrabutton{
+    background: none;            
+    border: none;
+    font-size: 20px;
+    color: white;
+
+}
+
+
+.mensagemDeRegistro{
+    background-color: rgb(248, 250, 243);
+    position: absolute;
+    left: 30rem;
+    top: 1rem;
+    width: 300px;
+    text-align: center;
+    padding-top: 27px;
+    font-size: 20px;
+    height: 70px;
+    border-radius: 15px;
+}
+@media (max-width: 994px) {
+    body{
+        background-size: 200vh;
+    }
+}
+
+@media (max-width: 522px){
+    body{
+        background-position-x: center;
+    }
+}
+@media (max-width: 807px){
+    .showPassword{
+        top: 5.9rem;
+    }
+    .entrarLogin{
+        left: 13rem;
+    }
+}
+

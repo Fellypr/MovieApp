@@ -1,0 +1,86 @@
+.navbar{
+    background-color: rgba(0, 0, 0, 0.589);
+    position: fixed;
+    backdrop-filter: blur(20px);
+    min-width: 99%;
+    min-height: 4em;
+    border-radius:0px 0px 10px 10px;
+    color: red;
+    z-index: 1;
+    
+    
+}
+.navbar h1{
+    position: absolute;
+    left: 2rem;
+    
+    top: 0.9rem;
+}
+.navbar form > input{
+    position: absolute;
+    top: 1rem;
+    left: 30rem;
+    min-width: 25rem;
+    font-size: 20px;
+}
+.navbar form > .iconsearch{
+    position: absolute;
+    top: 1.2rem;
+    left: 53.1rem;
+    background: none;
+    border: none;
+    
+}
+.navbar form > .iconsearch:hover{
+    cursor: pointer;
+    scale: 1.2;
+}
+
+.navbar h3{
+    position: absolute;
+    top: 1.4rem;
+    left: 65rem;
+    color: rgb(212, 208, 208);
+    
+}
+.iconmovie{
+    position: absolute;
+    top: 1.2rem;
+    left: 12.5rem;
+    
+}
+
+
+
+
+
+
+
+.typing {
+    width: 160px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #7E2EA0;
+    animation: typing 2s steps(19, end), cursor .5s steps(12, end) infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+}
+@keyframes cursor {
+    50% { border-color: transparent }
+}
+
+
+
+.leFadeInRight{
+    animation: leFadeInRight 3s ease-in-out;
+}
+
+@keyframes leFadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(70px);
+    }
+    to { opacity: 1 }
+}
