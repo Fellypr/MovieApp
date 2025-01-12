@@ -53,7 +53,7 @@ Este projeto é uma aplicação web que permite o registro de usuários, autenti
 
 Clone o repositório:
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/Fellypr/MovieApp.git
 ```
 
 Navegue até a pasta do front-end:
@@ -95,12 +95,7 @@ Navegue pelos filmes e visualize os detalhes.
 
 ## API Utilizada
 
-- The Movie Database (TMDb): Utilizada para obter os dados dos filmes.
-
-## Autores
-
-- **Desenvolvedor Front-end**: [Seu Nome]
-- **Desenvolvedor Back-end**: [Seu Nome]
+- The Movie Database (TMDb): Utilizada para obter os dados dos filmes
 
 ## Licença
 
